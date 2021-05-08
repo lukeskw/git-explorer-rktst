@@ -1,0 +1,49 @@
+section.repository-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+
+    h1 {
+        margin-bottom: 16px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        list-style-type: none;
+
+        li {
+            position: relative;
+            & + li {
+                margin-top: 30px;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                height: 1px;
+                width: 650px;
+                color: #2853DA;
+                background: #2853DA;
+                margin: 45px;
+                margin-left: -140px;
+            }
+        }
+        
+        p {
+            margin-top: 8px;
+            font-size: 14px;
+            color: #50E655;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 16px;
+            text-decoration: none;
+            color: #73d6a5;
+        }
+    }
+}
