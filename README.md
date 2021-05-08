@@ -11,3 +11,7 @@
 * Uma boa convenção é usar o path por causa de problemas de compatibilidade de diretorios (windows usa \\ por ex.)
 
 * function render ('elemento a ser renderizado', 'local onde será renderizado')
+
+
+## Conceito de imutabilidade
+  Diz que uma variável nunca poderá ter seu valor alterado, ela sempre irá receber outro valor!
