@@ -21,3 +21,6 @@
   * array de dependencias
     * vazio = a função dentro do useEffect será executada 1 unica vez assim que o componente for exibido em tela
     * com variáveis = quais informações que quando mudarem, o useEffect vai executar de novo;
+  
+## TypeScript
+  Tem a função de tipar o formato das variáveis.
